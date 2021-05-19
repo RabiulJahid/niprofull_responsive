@@ -1,0 +1,892 @@
+/*COMMON CSS*/
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #8e8e8e;
+}
+
+/*HEADER START*/
+header {
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+nav.C_nav {
+    padding-top: 0;
+}
+a.Left_all {
+    padding-top: 0;
+}
+
+/*LOGO*/
+div.logo {
+    font-family: "Lato", sans-serif;
+}
+div.logo .one {
+}
+img.I_mg {
+    margin-top: -6px;
+    margin-bottom: -6px;
+}
+div.logo .logo_T {
+    font-size: 30px;
+    font-weight: 500;
+    color: #333333;
+}
+/*MENU*/
+.Menu {
+    margin-top: 30px;
+}
+.Menu ul li a {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #8e8e8e !important;
+    transition: 0.4s;
+    padding: 15px !important;
+}
+.Menu ul li a:hover {
+    color: #333333 !important;
+    border-bottom: 1px solid indigo;
+}
+/*SEARCH*/
+a.btn-search {
+    color: #8e8e8e;
+}
+a.btn-search:hover {
+    color: #333333;
+}
+a.btn-search:focus {
+    outline: 0;
+    box-shadow: none;
+}
+/*SUB SEARCH*/
+ul.D_search {
+    min-width: 350px;
+    top: 90px;
+    padding: 10px 10px;
+    border: none;
+}
+ul.D_search[data-bs-popper] {
+    left: -300px;
+    margin-top: -22px;
+}
+div.search {
+}
+button.icon {
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/*HEADER END*/
+
+/*SLIDER START*/
+section.slider {
+    margin-top: 20px;
+    width:100%;
+}
+img.Hweight {
+    width: 100%;
+    height: auto;
+}
+/*INNER PART*/
+div.custom_slide {
+    margin-left: -5%;
+    width: 45%;
+    height: auto;
+    margin-bottom: 9%;
+    text-align: start;
+}
+div.custom_slide h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 58px;
+    margin-bottom: 55px;
+}
+div.custom_slide p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    line-height: 27px;
+}
+button.learn {
+    font-weight: 500;
+    width: 170px;
+    height: 50px;
+}
+i.arrow {
+    font-size: 20px;
+    margin-left: 27px;
+}
+
+.Prev_B {
+    left: 5% !important;
+    top: 90% !important;
+    color: black;
+}
+span.Custom_Prev_icon {
+    background-image: none;
+}
+.Next_B {
+    right: 73% !important;
+    top: 90% !important;
+    color: black;
+}
+span.Custom_Next_icon {
+    background-image: none;
+}
+
+/*INDICATOR START*/
+
+.indicator_S {
+    justify-content: end;
+}
+
+.indicator_S [data-bs-target] {
+    background-color: #0d0c0c;
+    width: 3px;
+    height: 15px;
+}
+/*WELCOME START*/
+/*|==START*/
+img.d_mg{
+    width: 2px;
+    height: 50px;
+}
+/*WELCOME TO NIPORO START*/
+div.headeR{
+  font-family:'Lato', sans-serif;
+  font-weight: 400;
+  font-size:30px;
+  color: #333333;
+}
+div.headeR h2{
+    margin: 0;
+    font-weight: 400;
+    font-size: 30px;
+    color: #333333;
+    padding-top: 30px;
+    padding-bottom: 45px;
+
+}
+div.headeR p{
+    margin:0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8e8e8e;
+    word-spacing: 1px;
+}
+
+/*WELCOME END*/
+
+ /*BRANDING PART*/
+
+ div.b_BoX{
+   width: 250px;
+    height: auto;
+    padding: 0;
+    border: 1px solid;
+    margin-top: 120px;
+ }
+  div.b_BoX:hover{
+    border-color: black;
+    color: black;
+  }
+ div.b_image{
+    margin-top: -16px;
+ }
+ img.B1_img{
+    margin-top: -4px;
+    width: 44px;
+    height: 52px;
+ }
+ img.B2_img{
+    margin-top: -4px;
+    width: 50px;
+    height: 60px
+ }
+ img.B3_img{
+    color: #8e8e8e;
+    margin-top: -4px;
+    width: 40px !important;
+    height: 52px !important;
+ }
+ img.B4_img{
+    margin-top: -8px;
+    width: 40px;
+    height: 55px;
+ }
+
+ div.b_BoX h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 50px;
+ }
+ 
+ div.b_BoX h3:hover{
+    color: #333333;
+    border-bottom: 1px solid black;
+    width:45%;
+    margin-left:30%;
+    cursor: pointer;
+    margin-bottom: 15px;
+    
+    }
+
+div.b_BoX p{
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8e8e8e;
+    word-spacing: 1px;
+    }
+
+button.B_button{
+    border: none;
+    background: transparent;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8e8e8e;
+    }
+
+button.B_button:hover{
+    color: black;
+  }
+
+  /*ABOUT START*/
+  section.About{
+    padding-top: 96px;
+  }
+   /*ABOUT IMAGE*/
+
+   /*ABOUT TEXT*/
+
+   div.about_text h3{
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #333333;
+    padding-bottom: 36px;
+   }
+   div.about_text p.p_1{
+      font-weight: 400;
+      margin: 0;
+      padding-bottom:30px;
+      color: #8e8e8e;
+   }
+   div.about_text p.p_2{
+      font-weight: 400;
+      margin: 0;
+      padding-bottom:40px;
+      color: #8e8e8e;
+   }
+  button.learn_1{
+    font-weight: 500;
+    width: 230px;
+    height: 50px;
+  }
+   button.learn_1:hover{
+    color: white;
+    background-color:black;
+   }
+  i.arrow_1{
+    font-size: 20px;
+    margin-left: 27px;
+  }
+
+  /*ABOUT END*/
+   /*RECENT WORK START*/
+   section.r_Work{
+    margin-top: 120px;
+    padding-bottom: 90px;
+    background-color: #F8F8F8;
+   }
+
+   div.RR_Work h3{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #333333;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 110px;
+     
+   }
+   /*ALL START*/
+   div.All_Menu{
+
+   }
+   .all_Menu ul li a{
+    width: auto;
+    height: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8e8e8e;
+    margin-left: 35px;
+    padding: 15px;
+   }
+   .all_Menu ul li a:hover{
+    color: black;
+    border: 1px solid;
+    border-color: black;
+
+   }
+
+   /*RECENT WORK END*/
+   
+   /*ALL IMAGE START*/
+   img.aa_img{
+      width: 280px;
+    height: 350px;
+    padding-top: 25px;
+   }
+   div.aa_imagE{
+     background-image: url(../img/a-2.jpg);
+    width: 280px;
+    height: 285px;
+    margin-top: 25px;
+   }
+   i.addition{
+    margin-left: 45%;
+    margin-top: 41%;
+    font-size: 40px;
+   }
+
+   div.aa_Text{
+    margin-left: 25px;
+    margin-top: 8px;
+   }
+
+   div.aa_Text h5{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #333333;
+    margin-bottom: 6px;
+    word-spacing: 2px;
+    margin-left: -25px;
+
+   }
+    div.aa_Text p{
+    font-weight: 400;
+    font-size: 15px;
+    color: #8e8e8e;
+    margin-left: -25px;
+    }
+    /*WHY CHOOSE NIPRO START*/
+  img.d_mg{
+    width: 1px;
+    height: 50px;
+}
+  div.headeRR{
+  font-family:'Lato', sans-serif;
+  font-weight: 400;
+  font-size:30px;
+  color: #333333;
+}
+div.headeRR h2{
+    margin: 0;
+    font-weight: 400;
+    font-size: 30px;
+    color: #333333;
+    padding-top: 25px;
+    padding-bottom: 100px;
+
+}
+    /*CREATIVE PART START */
+    div.creative{   
+    width: 350px;
+    height: 170px;
+    padding: 0;
+    margin-bottom: 50px;
+    border-bottom: 1px solid;
+    border-color: #e5d2d2;   
+    }
+    div.creative:hover{
+      border-color: black;
+    }
+
+    div.Br_text{
+      font-family: "Lato", sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      color: #8e8e8e;
+      padding-left: 15px;
+    }
+    div.Br_text:hover{
+      color: black;
+      cursor:pointer;
+    }
+
+    p.Brr_text{
+    margin: 0;
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8e8e8e;
+    line-height: 25px;
+    }
+
+   /* WHO WORKS WITH US START*/
+   section.Who_Works{
+    background-image:url(../img/who1.jpg);
+    width:100%;
+    height:600px;
+   }
+
+   div.headeRR_R h2{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #333333;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 85px;
+   }
+   /*IMAGE PART*/
+   div.C_one{
+      margin-left: 135px;
+   }
+
+   div.C_three{
+      margin-left: 90px;
+   }
+   div.C_four{
+    margin-left: 40px;
+
+   } 
+
+   div.ee_boX{
+    width: 289px;
+    background: black;
+    height: 380px;
+   }
+  
+   img.Ww_img{
+    width: 100%;
+    height: auto;
+  }
+   
+   div.ii_B_text{
+    background: white;
+    width: 100%;
+    height: 60px;
+    margin-left: 0;
+   }
+
+   div.ii_B_text h4{
+     font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+   }
+   div.ii_B_text span{
+    font-weight: 400;
+    font-size:16px;
+    color:#8e8e8e;
+
+   }
+   div.C-image{
+     width: 20%;
+    margin-left: 100px;
+    margin-right: -70px;
+   }
+
+   div.Icon_B{
+    background-image: url(../img/w3.jpg);
+    width: 100%;
+    height: 200px;
+    display: inline-block;
+    background-repeat: round;
+    background-position: unset;
+   }
+
+   div.Icon_C{   
+    width: 20px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 25px;
+    font-size: 18px;
+    background: white;
+    
+   }
+   
+   i.C_ii{
+    margin-top: 8px;
+    color: #8e8e8e;
+    transition:.4s;
+   }
+   i.C_ii:hover{
+    color: black;
+   }
+  
+   div.ee_boX{
+       width: 195px;
+    background: #FFFFFF;
+    height: 264px;
+   }
+    /*PRICING START*/
+    /*PRICING ITEM*/
+    div.Prc_Box{
+    border: 1px solid;
+    padding: 0;
+    width: 255px;
+    height: 460px;
+    }
+    div.Prc_Box:hover{
+      color: black;
+    }
+    div.Prc_H1{
+    width: 54px;
+    height: 32px;
+    background: white;
+    margin-top: -12px;
+    margin-left: 30px;
+    }
+    div.Prc_H2{
+    width: 100px;
+    height: 32px;
+    background: white;
+    margin-top: -12px;
+    margin-left: 30px;
+    }
+    div.Prc_H3{
+    width: 106px;
+    height: 32px;
+    background: white;
+    margin-top: -12px;
+    margin-left: 30px;
+    }
+    div.Prc_H4{
+    width: 95px;
+    height: 32px;
+    background: white;
+    margin-top: -12px;
+    margin-left: 30px;
+    }
+    h3.Prc_h4{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #333333;
+    margin: 0;
+    }
+    div.Prc_text{
+    padding-top: 45px;
+    padding-bottom: 35px;
+    margin-left: 30px;
+    }
+    img.Prc_img{
+    width: 150px;
+    height: 30px;
+    }
+    ul.Prc_ul{
+
+    }
+    ul.Prc_ul li{
+    list-style-type: none;
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8e8e8e;
+    padding-bottom: 22px;
+    }
+  ul.Prc_ul li:before {
+  content: "\2212"; 
+  font-size: 10px;
+  position: absolute;
+  top: 5px;
+  left: -10px;
+     }
+ button.Prc_button{
+    width: 200px;
+    height: 50px;
+    margin-left: 30px;
+    font-weight: 400;
+    color: #8e8e8e;
+    }
+    button.Prc_button:hover{
+      color:black;
+      border-color: black;
+      background-color:white;
+    }
+   i.Prc_arrow{
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #8e8e8e;
+   }
+   i.Prc_arrow:hover{
+    color:black;
+   }  
+  /* PRICING END*/
+
+  /*HTML TEMPLATE START*/
+  section.template{
+    margin-top:100px;
+    margin-bottom: 100px;
+    background-color: #F8F8F8;
+  }
+
+  div.html_box ul li{
+   font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+    color: #333333;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    word-spacing: 3px;
+  }
+  /*BUY NOW START*/
+  div.Buy_box{
+
+  }
+  button.Buy_button{
+    font-weight: 500;
+    color:#333333;
+    width: 170px;
+    font-size: 16px;
+    padding: 6px;
+    margin-top: 0px;
+    transition:0.4s;
+  }
+   button.Buy_button:hover{
+    color:black;
+    background-color:white;
+   }
+  i.Buy_arrow{
+    margin-left: 30px;
+    font-size: 17px;
+  }
+  /*HTML TEMPLATE END*/
+
+  /*AL RAYHAN START*/
+  section.alrayhan{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  div.left_Img{
+    background-image: url(../img/all-rayhan.jpg);
+    width: 255px;
+    height: 300px;
+    background-repeat: round;
+    display: inline-block;
+    background-position: unset;
+    /*padding: 20px;*/
+  }
+  i.left_icon{
+    font-size: 30px;
+    margin-top: 20px;
+    color: black;
+  }
+  div.Left_text{
+    margin-left: 20px;
+  }
+  div.Left_text h2{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size:18px;
+    color: #333333;
+    margin: 0;
+  }
+  div.Left_text h4{
+    font-size:18px;
+    font-weight: 400;
+    color:#8e8e8e;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+   div.Left_text h5{
+    font-size: 18px;
+    font-weight: 500;
+    color: #8e8e8e;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  div.Left_text p{
+   font-weight: 400;
+   font-size:14px;
+   color:#8e8e8e;
+   margin: 0;
+  margin-bottom: 35px;
+  line-height: 27px;
+  }
+  /*BUTTON START*/
+  div.Bton_box{
+    width: 70px;
+    height: 300px;
+    background: #615548;
+  }
+  .C_Bton{
+    bottom: -190px;
+  }
+  .C_Bton [data-bs-target] {
+    box-sizing: content-box;
+    width: 3px;
+    height: 25px;
+    color: black;
+  }
+  span.Bton_icon1{
+    background-image: none;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  span.Bton_icon2{
+    background-image: none;
+    margin-top: 550px;
+    margin-right: 50px;
+  }
+  /*AL RAYHAN END*/
+
+  /*CONTACT US START*/
+  section.contact{
+    width: 82%;
+    height: 500px;
+    border: 1px solid;
+    margin-left: 115px;
+  }
+  div.Contact_B{
+    margin-top: -10px;
+  }
+  div.Contact_B h3{
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size:30px;
+    color: #333333;
+    margin: 0;   
+    margin-top: -16px;
+    width: 200px;
+    height: 35px;
+    background-color: white;
+    padding-bottom: 100px;
+  }
+input.B_bottom{
+  border: none;
+  border-bottom: 1px solid;
+  border-color:#8e8e8e;
+  padding: 15px;
+  border-radius:0;
+}
+input.B_bottom:hover{
+  border-color: black;
+  border-radius: none;
+}
+input.B_bottom:focus{
+  outline:0;
+  box-shadow: none;
+}
+div.Buy_box{
+    padding: 0;
+    padding-top: 40px;
+}
+button.Contact_button{
+    width: 200px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+}
+i.Buy_arrow{
+  margin-left: 20px; 
+}
+
+div.F_name{
+  padding-bottom: 45px;
+}
+
+div.E_mail{
+  padding-bottom: 100px;
+}
+
+
+/*CONTACT US END*/
+
+/*FOOTER START*/
+section.footer{
+  background-image:url(../img/footer1.jpg);
+  width:100%;
+  height:450px;
+  margin-top: 100px;
+}
+
+div.Fotter_h4 h4{
+  font-family: "Lato", sans-serif;
+  margin:0;
+  font-weight: 400;
+  font-size:30px;
+  color: #333333
+}
+div.Fotter_h4 p{
+    padding-top: 20px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 19px;
+    color: #ffffff;
+}
+
+ul.Fotter_ul{
+     margin: 0;
+    padding: 40px;
+}
+
+i.Footer_i{
+    width: 40px;
+}
+a.F_ion{
+   font-size: 22px;
+    border: 1px solid white;
+    color: #c0c9da;
+    margin-left: 5px;
+    transition: .3s;
+}
+a.F_ion:hover{
+  color: black;
+  background-color: white;
+}
+ /*FOTTER DOWN START*/
+   /*LEFT*/
+ div.F_bOx{
+    border-top: 1px solid white;
+    padding-top: 30px;
+    margin-top: 70px;
+ }
+ div.F_L_BOX{
+   padding: 0;
+ }
+ ul.F_L_UL{
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+ }
+ ul.F_L_UL li{
+   margin: 0;
+ }
+  /*RIGHT*/
+  div.F_R_BOX{
+  padding:0;
+  }
+  ul.F_R-UL{
+   margin: 0;
+  }
+
+a.R_B_a{
+    font-weight: 400;
+    font-size:16px;
+    color: #ffffff;
+    text-decoration: none;
+   }
+
+/*FOTTER DOWN END*/
+/*FOOTER END*/
+
